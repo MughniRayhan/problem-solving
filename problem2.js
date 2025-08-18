@@ -1,7 +1,7 @@
 
 const countVowels = (text) =>{
     const vowels = "aeiou";
-    c=0;
+    let c=0;
 
     for(let i=0; i<text.length; i++){
         if(vowels.includes(text[i].toLowerCase())){
