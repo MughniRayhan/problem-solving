@@ -1,6 +1,6 @@
 const removeDuplicates = (arr) => {
     const uniqueArray = [];
-    for( a of arr) {
+    for( let a of arr) {
         if(!uniqueArray.includes(a)) {
             uniqueArray.push(a);
         }
